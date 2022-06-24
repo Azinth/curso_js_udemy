@@ -11,12 +11,12 @@
       
   
       const horaDigitada = hora.value;
-      if (horaDigitada < 0 && horaDigitada <=24 && horaDigitada != undefined && horaDigitada != null && horaDigitada != '' && horaDigitada != NaN){
+      if (horaDigitada < 0 && horaDigitada <24 && horaDigitada != undefined && horaDigitada != null && horaDigitada != '' && horaDigitada != NaN){
         alert(`Hora Digitada: ${hora.value} horas. Essa hora não existe!`);
       }else if ((horaDigitada >=12) && (horaDigitada <18)){
         resultado.innerHTML = `<p>Hora Digitada: ${hora.value} horas. Boa tarde!<br/></p>
       `;
-      } else if ((horaDigitada >=18) && (horaDigitada <=24)){
+      } else if ((horaDigitada >=18) && (horaDigitada <24)){
         resultado.innerHTML = `<p>Hora Digitada: ${hora.value} horas. Boa Noite!<br/></p>`;
   
       } else if ((horaDigitada >= 0) && (horaDigitada <12)) {
