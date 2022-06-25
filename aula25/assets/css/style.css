@@ -14,6 +14,11 @@
   font-weight: 700;
 }
 
+.paragrafoBranco{
+  background-color: rgb(255, 255, 255);
+}
+
+
 body {
   margin: 0;
   padding: 0;
@@ -65,8 +70,20 @@ form input:focus {
   outline: 1px solid var(--primary-color);
 }
 
-.resultado {
-  background-color: blue;
+.resultadoVermelho {
+  background-color: rgb(209, 65, 65);
+  text-align: center;
+  font-weight: 700;
+}
+
+.resultadoVerde {
+  background-color: rgb(0, 255, 0);
+  text-align: center;
+  font-weight: 700;
+}
+
+.resultadoAmarelo {
+  background-color: rgb(255, 255, 0);
   text-align: center;
   font-weight: 700;
 }
