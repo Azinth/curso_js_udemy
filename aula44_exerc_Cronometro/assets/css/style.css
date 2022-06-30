@@ -63,3 +63,11 @@ form button:hover {
 form button:active {
   background: rgb(150, 186, 192);
 }
+
+.cronometro{
+  font-size: 3em;
+}
+
+.pausado {
+  color: rgb(219, 0, 0);
+}
